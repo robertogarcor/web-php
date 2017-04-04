@@ -1,0 +1,205 @@
+
+body {       
+        background:  #e7f5fe;
+	color: #000;
+	font: 14px Arial;
+	margin: 0 auto;
+	padding: 0;
+        width: 100%;
+        height: 450px;
+        position: absolute; 
+        top:20%; 
+}
+
+/* content : id del div que contÃ¨ tots els elements del body*/
+#content form:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+/* content : id del div que contÃ¨ tots els elements del body*/
+#content {
+	margin: 0 auto;
+	padding: 25px 0 0;
+	text-align: center;
+	text-shadow: 0 1px 0 #fff;
+	width: 450px;
+        border: 1px solid #666;
+        -moz-border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -khtml-border-radius: 30px;
+        border-radius: 30px;
+
+        background:   #0199b1
+
+
+}
+#content h1 {
+	color: #fff;
+	letter-spacing: -0.05em;
+	line-height: 20px;
+	margin: 0 auto;
+        vertical-align: bottom;
+        text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+        font: 90px 'ChunkFiveRegular';
+        padding-bottom: 10px;
+        padding-left: 0px;
+       -webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+}
+#content h1:hover{
+    color:red;
+    cursor: default;
+}
+
+#content h2 {
+    color:  saddlebrown;
+    text-shadow: none;
+    font-family:  'ChunkFiveRegular';
+    letter-spacing: -0.05em;
+}
+#content a {
+    
+    text-shadow: none;
+    color:  #000;
+    letter-spacing: -0.05em;
+}
+
+#content form { margin: 0 20px; position: relative }
+#content form input[type="text"]:hover,
+#content form input[type="password"]:hover {
+	-webkit-box-shadow: 0 0 2px #ed1c24 inset;
+	-moz-box-shadow: 0 0 2px #ed1c24 inset;
+	-ms-box-shadow: 0 0 2px #ed1c24 inset;
+	-o-box-shadow: 0 0 2px #ed1c24 inset;
+	box-shadow: 0 0 2px #ed1c24 inset;
+	border: 1px solid #ed1c24;
+	outline: none;
+        color:red;
+}
+#content form input[type="text"],
+#content form input[type="password"],
+#content form input[type="password"]:active,
+#content form input[type="text"]:active{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+ 
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	background: #fff;
+	border: 1px solid #c8c8c8;
+	color: #777;
+	font: 18px Helvetica, Arial, sans-serif;
+	margin: 0 0 10px;
+	padding: 15px 10px 15px 40px;
+	width: 80%;
+        text-align: left;
+}
+
+
+#content form input[type="text"]:focus,
+#content form input[type="password"]:focus {
+ 
+	background-color:  brown;
+	border: 1px solid #ed1c24;
+	outline: none;
+        color:#fff ;
+        width: 70%;
+        text-align: center;
+}
+
+
+#content form input[type="submit"] {
+	background:   gray;
+	border: 1px solid #e0e0e0;
+	color: #fff;
+	cursor: pointer;
+	font: bold 15px Helvetica, Arial, sans-serif;
+	margin: 40px 0px 35px 0px;
+	position: relative;
+	width: 120px;
+        height: 40px;
+        -webkit-transition:all .45s ease-in-out;
+        -moz-transition:all .45s ease-in-out;
+        -o-transition:all .45s ease-in-out;
+        transition:all .45s ease-in-out;
+        -webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+}
+#content form input[type="submit"]:hover,
+#content form input[type="submit"]:focus {
+	background: red;
+}
+
+/*etiqueta per seleccionar l'idioma.'*/
+#content select {
+    padding:3px;
+    margin: 0 ;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+    width: 120px;
+}
+
+/* label : etiqueta que contÃ¨ el select del idioma*/
+#content label {position:relative; padding-left: 20px;}
+#content label:after {
+    content:'<>';
+    font:11px "Consolas", monospace;
+    color:#aaa;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform:rotate(90deg);
+    right:8px; top:2px;
+    padding:0 0 2px;
+    border-bottom:1px solid #ddd;
+    position:absolute;
+    pointer-events:none;
+}
+#content label:before {
+    content:'';
+    right:6px; top:0px;
+    width:20px; height:20px;
+    background:#f8f8f8;
+    position:absolute;
+    pointer-events:none;
+    display:block;
+}
+/* footer: div que contÃ¨ el peu de pÃ gina.*/
+#content #footer {
+    top: -10px;
+    //left: 10px;
+    position: relative;
+}
+/* autor: id del span que contÃ¨ l'autor del programa. EstÃ  dintre del div de footer.'*/
+#content #autor{
+        font-size: 10px;
+        color: white;
+}
