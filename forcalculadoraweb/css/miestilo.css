@@ -1,0 +1,117 @@
+/*Estilos de AppWeb Potencias*/
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: -moz-radial-gradient(top,#e0eff9,#f2f6f8);
+    background: -webkit-radial-gradiente(top,#e0eff9,#f2f6f8);
+    background: -o-radial-gradiente(top,#e0eff9,#f2f6f8);
+    background: -ms-radial-gradiente(top,#e0eff9,#f2f6f8);	
+}
+
+/*
+h1 {
+    color: #302F2F;
+    font-family: arial;
+}
+*/
+
+h2 {
+
+    font-family: arial;
+    text-shadow: .5px .5px 30px #383A39;
+}
+
+fieldset {
+   width: 90%;
+   margin: 10px auto;    
+}
+
+div label {
+    width: 65%;
+    float: left;
+    font: 15px arial bold;
+    color: #e0eff9;
+    text-shadow: .5px .5px 30px #383A39;
+			
+}
+
+label[for]{
+    width: 85%;
+}
+
+input {
+    width: 30%;
+}
+
+input[type="checkbox"]{
+    width: 10%;
+}
+
+input[type="radio"]{
+    width: 10%;
+}
+
+#interface {
+    width: 35%;
+    margin: 30px auto;
+    border: 2px #555353 solid;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(85,83,83,0.8);
+    background: -moz-linear-gradient(top,#398235,#c9de96);
+    background: -webkit-linear-gradiente(top,#398235,#c9de96);
+    background: -o-linear-gradiente(top,#398235,#c9de96);
+    background: -ms-linear-gradiente(top,#398235,#c9de96);
+}
+
+#interface header {
+    text-align: center;
+}
+
+#interface div {
+    width: 90%;
+    margin: 10px auto;
+    /*background-color: green;*/	
+}
+
+div input[type="submit"] {
+    display: block;
+    margin: 25px auto;
+    margin-bottom: 15px;
+    font-family: arial;
+    height: 2em;
+    width: 130px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: #186E80;
+    box-shadow: 2px 2px 3px #186E80;
+    background: -moz-linear-gradient(top,#186E80,#5DA0CF);
+    background: -webkit-linear-gradiente(top,#186E80,#5DA0CF);
+    background: -o-linear-gradiente(top,#186E80,#5DA0CF);
+    background: -ms-linear-gradiente(top,#186E80,#5DA0CF);	
+}
+
+#resultado h2{
+    text-align: center;		
+}
+
+#resultado {
+    width: 60%;
+    font: 18px arial bold;
+    padding: 20px;
+    margin: 50px auto;
+    border: 2px #555353 solid;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(85,83,83,0.8);
+}
+
+.error {
+    color:red;
+    text-align: center;
+    font: 20px arial bold;
+}
+
+	
